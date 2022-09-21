@@ -6,7 +6,7 @@ import subprocess
 if len(sys.argv) < 2:
     print('[!] No argument found')
     print('[!] Usage : python3 phar_creator.py payload')
-    print('[!] Example : python3 phar_creator.py \'<?php echo "pwd"; __HALT_COMPILER(); ?>\'')
+    print('[!] Example : python3 phar_creator.py \'<?php phpinfo(); __HALT_COMPILER(); ?>\'')
     exit(1)
 
 if not '__HALT_COMPILER()' in sys.argv[1]:

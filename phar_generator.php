@@ -3,7 +3,7 @@
 if ($argc == 1) {
     fwrite(STDERR, "[!] No argument for phar_generator.php\n");
     fwrite(STDERR, "[!] Usage : php phar_generator.php base64_payload\n");
-    fwrite(STDERR, "[!] Example : php phar_generator.php PD9waHAgZWNobyAicHdkIjsgX19IQUxUX0NPTVBJTEVSKCk7ID8+\n");
+    fwrite(STDERR, "[!] Example : php phar_generator.php PD9waHAgcGhwaW5mbygpOyBfX0hBTFRfQ09NUElMRVIoKTsgPz4=\n");
     die;
 }
 
