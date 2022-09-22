@@ -31,6 +31,7 @@ Do you have the error
 > PHP Fatal error:  Uncaught UnexpectedValueException: creating archive "payload.phar" disabled by the php.ini setting phar.readonly
 
 You need to enable the phar creation in php.ini
+
 To locate your php.ini 
 
 `php --ini`
