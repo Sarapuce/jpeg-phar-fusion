@@ -1,6 +1,6 @@
 # JPEG PHAR Fusion
 
-![alt text](http://url/to/img.png)
+![Very cool picture](https://github.com/Sarapuce/jpeg-phar-fusion/blob/main/fusion.jpeg)
 
 This is a simple tool to add a phar payload at the end of a valid jpeg image.
 
