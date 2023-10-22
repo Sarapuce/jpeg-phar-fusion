@@ -26,7 +26,7 @@ This is a simple tool to add a phar payload at the end of a valid jpeg image.
 5. Profit
 
 
-## It doen't work 😡
+## It doesn't work 😡
 Do you have the error 
 > PHP Fatal error:  Uncaught UnexpectedValueException: creating archive "payload.phar" disabled by the php.ini setting phar.readonly
 
